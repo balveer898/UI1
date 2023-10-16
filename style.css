@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(43,46,65);
+}
+.box{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+    padding-block: 40px;
+}
+.ul1{
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.ul1 img{
+    width: 30px;
+}
+.ul2{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    font-size: 13px;
+}
+.ul3{
+    width: 15%;
+    list-style: none;
+}
+.ul3  button{
+    width: 85px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+}
+.text-section{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-section h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.text-section h1 span{
+    color: rgb(226,35,102);
+}
+.text-section p{
+    text-align: center;
+    font-size: 13px;
+    color: grey;
+    margin-top: 10px;
+}
+.smallbox{
+    width: 450px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 30px;
+}
+.little-box{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(226,35,102);
+    color: white;
+    font-size: 13px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-section{
+    width: 100%;
+    height: 425px;
+    background-image: url(./assets/newui1_copy-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:768px){
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+        
+
+        
+    }
+    .ul2{
+        display: none;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+    }
+    .text-section{
+        width: 100%;
+        height: auto;
+    }
+    .text-section h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .text-section p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .smallbox{
+        width: 400px;
+    }
+    .little-box{
+        width: 100px;
+        height: 50px;
+
+    }
+    .img-section{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size:cover ;
+    }
+}
